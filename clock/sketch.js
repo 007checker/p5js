@@ -1,5 +1,5 @@
 var sizeOfArc = 680;
-var distToArc = 60;
+var distToArc = 80;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
