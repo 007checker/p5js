@@ -29,7 +29,7 @@ function draw(){
   arc(0, 0, sizeOfArc, sizeOfArc, 0, end1);
   push();
   rotate(end1 - 90);
-  rect(0, 0, 1, 120);
+  rect(0, 0, 1, 120, 1);
   pop();
 
   //handling minutes
@@ -39,7 +39,7 @@ function draw(){
   arc(0, 0, sizeOfArc - distToArc, sizeOfArc - distToArc, 0, end2);
   push();
   rotate(end2 - 90);
-  rect(0, 0, 1, 160);
+  rect(0, 0, 1, 160, 1);
   pop();
 
   //handling seconds
@@ -49,7 +49,7 @@ function draw(){
   arc(0, 0, sizeOfArc - distToArc * 2, sizeOfArc - distToArc * 2, 0, end3);
   push();
   rotate(end3 - 90);
-  rect(0, 0, 1, 200);
+  rect(0, 0, 1, 200, 1);
   pop();
 
   stroke(255);
