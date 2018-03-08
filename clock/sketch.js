@@ -4,7 +4,7 @@ function setup(){
 }
 
 function draw(){
-  stroke(255);
+  stroke(205);
   ranX = random(width);
   ranY = random(height);
   point(ranX, ranY);
